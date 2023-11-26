@@ -6,7 +6,7 @@ import { MdPhotoCamera } from 'react-icons/md';
 
 const Services = () => {
   return (
-    <div>
+    <div id='services'>
  <div className="flex gap-1 pt-20 pl-20">
     <div className="w-2 h-8 bg-green-600"></div>
     <h1 className="text-white font-bold  text-2xl">Services</h1>

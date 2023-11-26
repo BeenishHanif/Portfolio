@@ -4,7 +4,7 @@ const Portfolio = () => {
 const [frontend,setfrontEnd]=useState(0);
 
   return (
-    <div>
+    <div id="portfolio">
       <div className="flex gap-1 pt-20 pl-20">
         <div className="w-2 h-8 bg-green-600"></div>
         <h1 className='text-white font-bold  text-2xl'>Portfolio</h1>
@@ -66,17 +66,17 @@ const [frontend,setfrontEnd]=useState(0);
               />
             </div>)}
             {(frontend==2) &&
-              <div className="grid grid-rows-3 grid-flow-col gap-4 content-center ">
+              <div className="grid grid-row-3 gap-x-4 gap-y-4 grid-flow-col">
               <img
-                className="rounded-lg justify-self-stretch "
+                className="rounded-lg "
                 src="https://img.freepik.com/free-photo/landscape-shot-taken-serpentine-road-tf-436-masca-spain_181624-36970.jpg?size=626&ext=jpg&ga=GA1.1.246330575.1700575932&semt=sph"
               />
               <img
-                className="rounded-lg justify-self-stretch"
+                className="rounded-lg aspect-[1/0.75] "
                 src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?size=626&ext=jpg&ga=GA1.1.246330575.1700575932&semt=sph"
               />
               <img
-                className="row-span-2 rounded-lg"
+                className="rounded-lg row-span-2"
                 src="https://img.freepik.com/free-photo/beautiful-landscape-with-green-grass-breathtaking-view-rainbow-storm-clouds_181624-32758.jpg?size=626&ext=jpg&ga=GA1.1.246330575.1700575932&semt=sph"
               />
             </div>

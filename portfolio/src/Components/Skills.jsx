@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <>
+    <div id="skills">
     <div className="flex gap-1 pt-20 pl-20">
     <div className="w-2 h-8 bg-green-600"></div>
     <h1 className="text-white font-bold  text-2xl">Skills</h1>
@@ -57,7 +57,7 @@ const Skills = () => {
         <h1 >JAVA</h1>
       </div>
     </div>
-    </>
+    </div>
   );
 };
 

@@ -5,7 +5,7 @@ import { IoIosMail } from "react-icons/io";
 
 const About = () => {
   return (
-    <>
+    <div id="about">
           <div className="flex gap-1 pt-20 pl-20">
             <div className="w-2 h-8 bg-green-600"></div>
             <h1 className="text-white font-bold  text-2xl">About</h1>
@@ -56,7 +56,7 @@ const About = () => {
         </div>
       </div>
     </div>
-    </>
+    </div>
   );
 };
 
